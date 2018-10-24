@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shared components <StyledRecaptcha /> component should match the snapshot 1`] = `
+.c0 {
+  margin-top: 12px;
+}
+
+<Recaptcha
+  className="c0"
+/>
+`;
+
+exports[`Shared components <Subtitle /> component should match the snapshot 1`] = `
+.c0 {
+  font-size: 16px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Shared components <Title /> component should match the snapshot 1`] = `
+.c0 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #16222a;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Shared components <Wrapper /> component should match the snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Lato,sans-serif;
+  max-width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;

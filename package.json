@@ -1,0 +1,50 @@
+{
+  "name": "reactchet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.3.1",
+    "axios": "^0.18.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "jest-styled-components": "^6.2.2",
+    "lodash": "^4.17.11",
+    "query-string": "^6.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "redux-saga-test-plan": "^3.7.0",
+    "styled-components": "^4.0.2",
+    "timeago.js": "^4.0.0-beta.1",
+    "typeface-roboto": "0.0.54"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.0-rc.3",
+    "@storybook/addon-links": "^4.0.0-rc.3",
+    "@storybook/addons": "^4.0.0-rc.3",
+    "@storybook/react": "^4.0.0-rc.3",
+    "babel-loader": "^8.0.4",
+    "react-scripts": "^2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

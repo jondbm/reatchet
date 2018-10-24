@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StandardLogin /> component basic rendering should match the snapshot 1`] = `
+<sharedComponents__Wrapper>
+  <sharedComponents__Subtitle>
+    Log in to Seenit Studio with your email address and password
+  </sharedComponents__Subtitle>
+  <TextInput
+    data-key="input-email"
+    handleChange={[Function]}
+    isPasswordInput={false}
+    isValid={false}
+    label="Email address"
+    validationMessage="Enter a valid email address"
+    value=""
+  />
+  <TextInput
+    data-key="input-password"
+    handleChange={[Function]}
+    isPasswordInput={true}
+    isValid={false}
+    label="Password"
+    validationMessage="Passwords must be at least 8 characters long"
+    value=""
+  />
+  <sharedComponents__StyledRecaptcha
+    handleExpiredRecaptcha={[Function]}
+    handleRecaptcha={[Function]}
+    id="login"
+  />
+  <StandardLogin__LoginButton
+    data-el="login-button"
+    disabled={true}
+    onClick={[Function]}
+    variant="raised"
+  >
+    Log in
+  </StandardLogin__LoginButton>
+  <StandardLogin__ForgottenPasswordLink
+    data-el="forgotten-password-link"
+    to="/login/forgotten-password"
+  >
+    Forgotten your password?
+  </StandardLogin__ForgottenPasswordLink>
+</sharedComponents__Wrapper>
+`;
